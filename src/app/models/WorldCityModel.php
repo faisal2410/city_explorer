@@ -1,5 +1,5 @@
 <?php
-namespace App;
+namespace App\App\Models;
 class WorldCityModel 
 {
     public function __construct(

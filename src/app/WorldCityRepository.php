@@ -1,9 +1,10 @@
 <?php
 
 declare(strict_types=1);
-namespace App;
+namespace App\App;
 
 use PDO;
+use App\App\Models\WorldCityModel;
 
 class WorldCityRepository
 {
