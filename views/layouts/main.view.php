@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./../styles/simple.css" />
-    <link rel="stylesheet" type="text/css" href="./../styles/custom.css" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
 
     <title>Cities explorer</title>
 </head>
@@ -26,7 +26,7 @@
             Designed and developed for Learning PHP OOP
         </p>
     </footer>
-   
+
 </body>
 
 </html>
