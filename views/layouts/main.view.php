@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1>
-            <a href="index.php">Cities explorer</a>
+            <a href="/">Cities explorer</a>
         </h1>
         <p>Explore and find cities</p>
     </header>

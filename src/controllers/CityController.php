@@ -21,9 +21,9 @@ class CityController
         $this->worldCityRepository = new WorldCityRepository($this->db->getConnection());
     }
 
-    public function run()
+    public function show($id)
     {
-        $id = (int) ($_GET['id'] ?? 0);
+        // $id = (int) ($_GET['id'] ?? 0);
         $city = $this->worldCityRepository->fetchById($id);
 
         if (empty($city)) {

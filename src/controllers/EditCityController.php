@@ -29,7 +29,7 @@ class EditCityController
         $city = $this->worldCityRepository->fetchById($id);
 
         if (empty($city)) {
-            header('Location: index.php');
+            header('Location: /');
             die();
         }
 
@@ -44,7 +44,7 @@ class EditCityController
 
             if ($this->validateCityData($cityData)) {
                 $this->worldCityRepository->update($id, $cityData);
-                header('Location: index.php');
+                header('Location: /');
                 die();
             }
         }
